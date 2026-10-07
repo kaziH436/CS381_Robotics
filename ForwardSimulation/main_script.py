@@ -16,7 +16,8 @@ for i in range(0,editableCoordSet.getSize()):
 	editableCoordSet.get(i).setValue(state, init_state[i])
 
 manager = osim.Manager(model)
-finalTime = 1
+# finalTime = 1
+finalTime = 5 
 manager.initialize(state)
 manager.integrate(finalTime)
 
