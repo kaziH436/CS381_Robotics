@@ -10,7 +10,7 @@ model.setUseVisualizer(True)
 
 init_state = [0.0, 2.0, 3.5, 0.0, 1.5, 0, 0, 0, 0, 0]
 
-editableCoordSet = model.updCoordinateSet();
+editableCoordSet = model.updCoordinateSet()
 
 for i in range(0,editableCoordSet.getSize()):
 	editableCoordSet.get(i).setValue(state, init_state[i])
@@ -20,5 +20,5 @@ finalTime = 1
 manager.initialize(state)
 manager.integrate(finalTime)
 
-statesDegrees = manager.getStateStorage();
-statesDegrees.printToFile("forwardSimulation.sto", "w");
+statesDegrees = manager.getStateStorage()
+statesDegrees.printToFile("forwardSimulation.sto", "w")
