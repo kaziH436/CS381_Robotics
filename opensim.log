@@ -1,0 +1,334 @@
+[2026-10-07 11:26:18.649] [info] Updating Model file from 30000 to latest format...
+[2026-10-07 11:26:18.653] [info] Loaded model gait9dof18musc_Thelen_BigSpheres.osim from file gait9dof18musc_Thelen_BigSpheres_20160914.osim
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'sacrum.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'pelvis.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'femur.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'tibia.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'fibula.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'talus.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'foot.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'l_femur.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'l_tibia.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'l_fibula.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'l_talus.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'hat_spine.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-10-07 11:26:18.653] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2026-10-07 11:26:18.653] [info] 'ControllerSet' was renamed and is being set to 'controllerset'.
+[2026-10-07 11:26:18.653] [info] 'ComponentSet' was renamed and is being set to 'componentset'.
+[2026-10-07 11:26:18.656] [warning] Coordinate.setValue:  coordinate lumbar_extension is locked. Unable to change its value.
+[2026-10-07 11:26:18.659] [info] -------
+[2026-10-07 11:26:18.659] [info] Manager
+[2026-10-07 11:26:18.659] [info] -------
+[2026-10-07 11:26:18.659] [info] Starting integration at initial time 0.00 s...
+[2026-10-07 11:26:24.562] [info] Integration complete at final time 1.00 s.
+[2026-10-07 11:26:24.562] [info]  - CPU time elapsed: 5.894376 s
+[2026-10-07 11:26:24.562] [info]  - real time elapsed: 5.902234 s
+[2026-10-07 11:26:24.562] [info]  - ratio sim-to-real time: 0.169
+[2026-10-07 11:26:24.562] [info]  - integrator method: RungeKuttaMerson
+[2026-10-07 11:26:24.562] [info]  - number of realizations: 111397
+[2026-10-07 11:26:24.562] [info]  - number of steps taken / attempted: 20548 / 22712
+[2026-10-07 11:26:24.562] [info]  - number of projections: 0
+[2026-10-07 11:26:24.562] [info]  - number of iterations: 22712
+[2026-10-07 11:32:30.986] [info] Updating Model file from 30000 to latest format...
+[2026-10-07 11:32:30.989] [info] Loaded model gait9dof18musc_Thelen_BigSpheres.osim from file gait9dof18musc_Thelen_BigSpheres_20160914.osim
+[2026-10-07 11:32:30.991] [warning] Couldn't find file 'foot.vtp'.
+[2026-10-07 11:32:30.991] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-10-07 11:32:30.992] [warning] Couldn't find file 'l_talus.vtp'.
+[2026-10-07 11:32:30.992] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-10-07 11:32:30.992] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-10-07 11:32:30.992] [warning] Couldn't find file 'hat_spine.vtp'.
+[2026-10-07 11:32:30.992] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-10-07 11:32:30.992] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-10-07 11:32:30.992] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2026-10-07 11:32:30.992] [info] 'ControllerSet' was renamed and is being set to 'controllerset'.
+[2026-10-07 11:32:30.992] [info] 'ComponentSet' was renamed and is being set to 'componentset'.
+[2026-10-07 11:32:30.998] [warning] Coordinate.setValue:  coordinate lumbar_extension is locked. Unable to change its value.
+[2026-10-07 11:32:31.000] [info] -------
+[2026-10-07 11:32:31.000] [info] Manager
+[2026-10-07 11:32:31.000] [info] -------
+[2026-10-07 11:32:31.000] [info] Starting integration at initial time 0.00 s...
+[2026-10-07 11:32:34.945] [info] Updating Model file from 30000 to latest format...
+[2026-10-07 11:32:34.948] [info] Loaded model gait9dof18musc_Thelen_BigSpheres.osim from file gait9dof18musc_Thelen_BigSpheres_20160914.osim
+[2026-10-07 11:32:34.949] [warning] Couldn't find file 'foot.vtp'.
+[2026-10-07 11:32:34.950] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-10-07 11:32:34.950] [warning] Couldn't find file 'l_talus.vtp'.
+[2026-10-07 11:32:34.950] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-10-07 11:32:34.950] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-10-07 11:32:34.950] [warning] Couldn't find file 'hat_spine.vtp'.
+[2026-10-07 11:32:34.950] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-10-07 11:32:34.951] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-10-07 11:32:34.951] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2026-10-07 11:32:34.951] [info] 'ControllerSet' was renamed and is being set to 'controllerset'.
+[2026-10-07 11:32:34.951] [info] 'ComponentSet' was renamed and is being set to 'componentset'.
+[2026-10-07 11:32:34.952] [warning] Coordinate.setValue:  coordinate lumbar_extension is locked. Unable to change its value.
+[2026-10-07 11:32:34.952] [info] -------
+[2026-10-07 11:32:34.952] [info] Manager
+[2026-10-07 11:32:34.952] [info] -------
+[2026-10-07 11:32:34.952] [info] Starting integration at initial time 0.00 s...
+[2026-10-07 11:32:37.004] [info] Integration complete at final time 1.00 s.
+[2026-10-07 11:32:37.004] [info]  - CPU time elapsed: 5.997252 s
+[2026-10-07 11:32:37.004] [info]  - real time elapsed: 6.004370 s
+[2026-10-07 11:32:37.004] [info]  - ratio sim-to-real time: 0.167
+[2026-10-07 11:32:37.004] [info]  - integrator method: RungeKuttaMerson
+[2026-10-07 11:32:37.004] [info]  - number of realizations: 111397
+[2026-10-07 11:32:37.004] [info]  - number of steps taken / attempted: 20548 / 22712
+[2026-10-07 11:32:37.004] [info]  - number of projections: 0
+[2026-10-07 11:32:37.004] [info]  - number of iterations: 22712
+[2026-10-07 11:32:41.126] [info] Integration complete at final time 1.00 s.
+[2026-10-07 11:32:41.126] [info]  - CPU time elapsed: 6.165802 s
+[2026-10-07 11:32:41.126] [info]  - real time elapsed: 6.173602 s
+[2026-10-07 11:32:41.126] [info]  - ratio sim-to-real time: 0.162
+[2026-10-07 11:32:41.126] [info]  - integrator method: RungeKuttaMerson
+[2026-10-07 11:32:41.126] [info]  - number of realizations: 111397
+[2026-10-07 11:32:41.126] [info]  - number of steps taken / attempted: 20548 / 22712
+[2026-10-07 11:32:41.126] [info]  - number of projections: 0
+[2026-10-07 11:32:41.126] [info]  - number of iterations: 22712
+[2026-10-07 11:35:52.932] [info] Updating Model file from 30000 to latest format...
+[2026-10-07 11:35:52.934] [info] Loaded model gait9dof18musc_Thelen_BigSpheres.osim from file gait9dof18musc_Thelen_BigSpheres_20160914.osim
+[2026-10-07 11:35:52.936] [warning] Couldn't find file 'foot.vtp'.
+[2026-10-07 11:35:52.936] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-10-07 11:35:52.937] [warning] Couldn't find file 'l_talus.vtp'.
+[2026-10-07 11:35:52.937] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-10-07 11:35:52.937] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-10-07 11:35:52.937] [warning] Couldn't find file 'hat_spine.vtp'.
+[2026-10-07 11:35:52.937] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-10-07 11:35:52.937] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-10-07 11:35:52.937] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2026-10-07 11:35:52.937] [info] 'ControllerSet' was renamed and is being set to 'controllerset'.
+[2026-10-07 11:35:52.937] [info] 'ComponentSet' was renamed and is being set to 'componentset'.
+[2026-10-07 11:35:52.938] [warning] Coordinate.setValue:  coordinate lumbar_extension is locked. Unable to change its value.
+[2026-10-07 11:35:52.939] [info] -------
+[2026-10-07 11:35:52.939] [info] Manager
+[2026-10-07 11:35:52.939] [info] -------
+[2026-10-07 11:35:52.939] [info] Starting integration at initial time 0.00 s...
+[2026-10-07 11:36:09.662] [info] Integration complete at final time 1.00 s.
+[2026-10-07 11:36:09.662] [info]  - CPU time elapsed: 16.677507 s
+[2026-10-07 11:36:09.662] [info]  - real time elapsed: 16.722948 s
+[2026-10-07 11:36:09.662] [info]  - ratio sim-to-real time: 0.060
+[2026-10-07 11:36:09.662] [info]  - integrator method: RungeKuttaMerson
+[2026-10-07 11:36:09.662] [info]  - number of realizations: 312384
+[2026-10-07 11:36:09.662] [info]  - number of steps taken / attempted: 60375 / 63002
+[2026-10-07 11:36:09.662] [info]  - number of projections: 1
+[2026-10-07 11:36:09.662] [info]  - number of iterations: 63002
+[2026-10-07 11:38:37.544] [info] Updating Model file from 30000 to latest format...
+[2026-10-07 11:38:37.546] [info] Loaded model gait9dof18musc_Thelen_BigSpheres.osim from file gait9dof18musc_Thelen_BigSpheres_20160914.osim
+[2026-10-07 11:38:37.549] [warning] Couldn't find file 'foot.vtp'.
+[2026-10-07 11:38:37.549] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-10-07 11:38:37.550] [warning] Couldn't find file 'l_talus.vtp'.
+[2026-10-07 11:38:37.550] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-10-07 11:38:37.550] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-10-07 11:38:37.550] [warning] Couldn't find file 'hat_spine.vtp'.
+[2026-10-07 11:38:37.550] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-10-07 11:38:37.550] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-10-07 11:38:37.551] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2026-10-07 11:38:37.551] [info] 'ControllerSet' was renamed and is being set to 'controllerset'.
+[2026-10-07 11:38:37.551] [info] 'ComponentSet' was renamed and is being set to 'componentset'.
+[2026-10-07 11:38:37.552] [warning] Coordinate.setValue:  coordinate lumbar_extension is locked. Unable to change its value.
+[2026-10-07 11:38:37.552] [info] -------
+[2026-10-07 11:38:37.552] [info] Manager
+[2026-10-07 11:38:37.552] [info] -------
+[2026-10-07 11:38:37.552] [info] Starting integration at initial time 0.00 s...
+[2026-10-07 11:38:41.356] [info] Integration complete at final time 1.00 s.
+[2026-10-07 11:38:41.356] [info]  - CPU time elapsed: 3.797152 s
+[2026-10-07 11:38:41.356] [info]  - real time elapsed: 3.803590 s
+[2026-10-07 11:38:41.356] [info]  - ratio sim-to-real time: 0.263
+[2026-10-07 11:38:41.356] [info]  - integrator method: RungeKuttaMerson
+[2026-10-07 11:38:41.356] [info]  - number of realizations: 71031
+[2026-10-07 11:38:41.356] [info]  - number of steps taken / attempted: 12574 / 14614
+[2026-10-07 11:38:41.356] [info]  - number of projections: 0
+[2026-10-07 11:38:41.356] [info]  - number of iterations: 14614
+[2026-10-07 11:41:28.951] [info] Updating Model file from 30000 to latest format...
+[2026-10-07 11:41:28.953] [info] Loaded model gait9dof18musc_Thelen_BigSpheres.osim from file gait9dof18musc_Thelen_BigSpheres_20160914.osim
+[2026-10-07 11:41:28.955] [warning] Couldn't find file 'foot.vtp'.
+[2026-10-07 11:41:28.955] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-10-07 11:41:28.956] [warning] Couldn't find file 'l_talus.vtp'.
+[2026-10-07 11:41:28.956] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-10-07 11:41:28.956] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-10-07 11:41:28.956] [warning] Couldn't find file 'hat_spine.vtp'.
+[2026-10-07 11:41:28.956] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-10-07 11:41:28.956] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-10-07 11:41:28.956] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2026-10-07 11:41:28.956] [info] 'ControllerSet' was renamed and is being set to 'controllerset'.
+[2026-10-07 11:41:28.956] [info] 'ComponentSet' was renamed and is being set to 'componentset'.
+[2026-10-07 11:41:28.957] [warning] Coordinate.setValue:  coordinate lumbar_extension is locked. Unable to change its value.
+[2026-10-07 11:41:28.958] [info] -------
+[2026-10-07 11:41:28.958] [info] Manager
+[2026-10-07 11:41:28.958] [info] -------
+[2026-10-07 11:41:28.958] [info] Starting integration at initial time 0.00 s...
+[2026-10-07 11:41:32.694] [info] Integration complete at final time 1.00 s.
+[2026-10-07 11:41:32.694] [info]  - CPU time elapsed: 3.731230 s
+[2026-10-07 11:41:32.694] [info]  - real time elapsed: 3.736632 s
+[2026-10-07 11:41:32.694] [info]  - ratio sim-to-real time: 0.268
+[2026-10-07 11:41:32.694] [info]  - integrator method: RungeKuttaMerson
+[2026-10-07 11:41:32.694] [info]  - number of realizations: 71031
+[2026-10-07 11:41:32.694] [info]  - number of steps taken / attempted: 12574 / 14614
+[2026-10-07 11:41:32.694] [info]  - number of projections: 0
+[2026-10-07 11:41:32.694] [info]  - number of iterations: 14614
+[2026-10-07 11:41:41.819] [info] Updating Model file from 30000 to latest format...
+[2026-10-07 11:41:41.821] [info] Loaded model gait9dof18musc_Thelen_BigSpheres.osim from file gait9dof18musc_Thelen_BigSpheres_20160914.osim
+[2026-10-07 11:41:41.823] [warning] Couldn't find file 'foot.vtp'.
+[2026-10-07 11:41:41.823] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-10-07 11:41:41.824] [warning] Couldn't find file 'l_talus.vtp'.
+[2026-10-07 11:41:41.824] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-10-07 11:41:41.824] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-10-07 11:41:41.824] [warning] Couldn't find file 'hat_spine.vtp'.
+[2026-10-07 11:41:41.824] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-10-07 11:41:41.824] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-10-07 11:41:41.824] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2026-10-07 11:41:41.824] [info] 'ControllerSet' was renamed and is being set to 'controllerset'.
+[2026-10-07 11:41:41.824] [info] 'ComponentSet' was renamed and is being set to 'componentset'.
+[2026-10-07 11:41:41.825] [warning] Coordinate.setValue:  coordinate lumbar_extension is locked. Unable to change its value.
+[2026-10-07 11:41:41.825] [info] -------
+[2026-10-07 11:41:41.825] [info] Manager
+[2026-10-07 11:41:41.825] [info] -------
+[2026-10-07 11:41:41.825] [info] Starting integration at initial time 0.00 s...
+[2026-10-07 11:41:47.726] [info] Integration complete at final time 1.00 s.
+[2026-10-07 11:41:47.726] [info]  - CPU time elapsed: 5.896091 s
+[2026-10-07 11:41:47.726] [info]  - real time elapsed: 5.900196 s
+[2026-10-07 11:41:47.726] [info]  - ratio sim-to-real time: 0.169
+[2026-10-07 11:41:47.726] [info]  - integrator method: RungeKuttaMerson
+[2026-10-07 11:41:47.726] [info]  - number of realizations: 111397
+[2026-10-07 11:41:47.726] [info]  - number of steps taken / attempted: 20548 / 22712
+[2026-10-07 11:41:47.726] [info]  - number of projections: 0
+[2026-10-07 11:41:47.726] [info]  - number of iterations: 22712
+[2026-10-07 11:42:44.308] [info] Updating Model file from 30000 to latest format...
+[2026-10-07 11:42:44.310] [info] Loaded model gait9dof18musc_Thelen_BigSpheres.osim from file gait9dof18musc_Thelen_BigSpheres_20160914.osim
+[2026-10-07 11:42:44.312] [warning] Couldn't find file 'foot.vtp'.
+[2026-10-07 11:42:44.312] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-10-07 11:42:44.313] [warning] Couldn't find file 'l_talus.vtp'.
+[2026-10-07 11:42:44.313] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-10-07 11:42:44.313] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-10-07 11:42:44.313] [warning] Couldn't find file 'hat_spine.vtp'.
+[2026-10-07 11:42:44.313] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-10-07 11:42:44.313] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-10-07 11:42:44.313] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2026-10-07 11:42:44.313] [info] 'ControllerSet' was renamed and is being set to 'controllerset'.
+[2026-10-07 11:42:44.313] [info] 'ComponentSet' was renamed and is being set to 'componentset'.
+[2026-10-07 11:42:44.315] [warning] Coordinate.setValue:  coordinate lumbar_extension is locked. Unable to change its value.
+[2026-10-07 11:42:44.315] [info] -------
+[2026-10-07 11:42:44.315] [info] Manager
+[2026-10-07 11:42:44.315] [info] -------
+[2026-10-07 11:42:44.315] [info] Starting integration at initial time 0.00 s...
+[2026-10-07 11:42:46.593] [info] Integration complete at final time 1.00 s.
+[2026-10-07 11:42:46.593] [info]  - CPU time elapsed: 2.270736 s
+[2026-10-07 11:42:46.593] [info]  - real time elapsed: 2.277721 s
+[2026-10-07 11:42:46.593] [info]  - ratio sim-to-real time: 0.439
+[2026-10-07 11:42:46.593] [info]  - integrator method: RungeKuttaMerson
+[2026-10-07 11:42:46.593] [info]  - number of realizations: 42736
+[2026-10-07 11:42:46.593] [info]  - number of steps taken / attempted: 7039 / 8924
+[2026-10-07 11:42:46.593] [info]  - number of projections: 0
+[2026-10-07 11:42:46.593] [info]  - number of iterations: 8924
+[2026-10-07 11:42:52.089] [info] Updating Model file from 30000 to latest format...
+[2026-10-07 11:42:52.091] [info] Loaded model gait9dof18musc_Thelen_BigSpheres.osim from file gait9dof18musc_Thelen_BigSpheres_20160914.osim
+[2026-10-07 11:42:52.093] [warning] Couldn't find file 'foot.vtp'.
+[2026-10-07 11:42:52.093] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-10-07 11:42:52.094] [warning] Couldn't find file 'l_talus.vtp'.
+[2026-10-07 11:42:52.094] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-10-07 11:42:52.094] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-10-07 11:42:52.094] [warning] Couldn't find file 'hat_spine.vtp'.
+[2026-10-07 11:42:52.094] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-10-07 11:42:52.094] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-10-07 11:42:52.094] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2026-10-07 11:42:52.094] [info] 'ControllerSet' was renamed and is being set to 'controllerset'.
+[2026-10-07 11:42:52.094] [info] 'ComponentSet' was renamed and is being set to 'componentset'.
+[2026-10-07 11:42:52.096] [warning] Coordinate.setValue:  coordinate lumbar_extension is locked. Unable to change its value.
+[2026-10-07 11:42:52.096] [info] -------
+[2026-10-07 11:42:52.096] [info] Manager
+[2026-10-07 11:42:52.096] [info] -------
+[2026-10-07 11:42:52.096] [info] Starting integration at initial time 0.00 s...
+[2026-10-07 11:42:54.393] [info] Integration complete at final time 1.00 s.
+[2026-10-07 11:42:54.393] [info]  - CPU time elapsed: 2.286964 s
+[2026-10-07 11:42:54.393] [info]  - real time elapsed: 2.296646 s
+[2026-10-07 11:42:54.393] [info]  - ratio sim-to-real time: 0.435
+[2026-10-07 11:42:54.393] [info]  - integrator method: RungeKuttaMerson
+[2026-10-07 11:42:54.393] [info]  - number of realizations: 42736
+[2026-10-07 11:42:54.393] [info]  - number of steps taken / attempted: 7039 / 8924
+[2026-10-07 11:42:54.393] [info]  - number of projections: 0
+[2026-10-07 11:42:54.393] [info]  - number of iterations: 8924
+[2026-10-07 11:42:59.783] [info] Updating Model file from 30000 to latest format...
+[2026-10-07 11:42:59.785] [info] Loaded model gait9dof18musc_Thelen_BigSpheres.osim from file gait9dof18musc_Thelen_BigSpheres_20160914.osim
+[2026-10-07 11:42:59.787] [warning] Couldn't find file 'foot.vtp'.
+[2026-10-07 11:42:59.787] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-10-07 11:42:59.788] [warning] Couldn't find file 'l_talus.vtp'.
+[2026-10-07 11:42:59.788] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-10-07 11:42:59.788] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-10-07 11:42:59.788] [warning] Couldn't find file 'hat_spine.vtp'.
+[2026-10-07 11:42:59.788] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-10-07 11:42:59.788] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-10-07 11:42:59.788] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2026-10-07 11:42:59.788] [info] 'ControllerSet' was renamed and is being set to 'controllerset'.
+[2026-10-07 11:42:59.788] [info] 'ComponentSet' was renamed and is being set to 'componentset'.
+[2026-10-07 11:42:59.790] [warning] Coordinate.setValue:  coordinate lumbar_extension is locked. Unable to change its value.
+[2026-10-07 11:42:59.790] [info] -------
+[2026-10-07 11:42:59.790] [info] Manager
+[2026-10-07 11:42:59.790] [info] -------
+[2026-10-07 11:42:59.790] [info] Starting integration at initial time 0.00 s...
+[2026-10-07 11:43:01.592] [info] Integration complete at final time 1.00 s.
+[2026-10-07 11:43:01.592] [info]  - CPU time elapsed: 1.799819 s
+[2026-10-07 11:43:01.592] [info]  - real time elapsed: 1.801537 s
+[2026-10-07 11:43:01.592] [info]  - ratio sim-to-real time: 0.555
+[2026-10-07 11:43:01.592] [info]  - integrator method: RungeKuttaMerson
+[2026-10-07 11:43:01.592] [info]  - number of realizations: 33508
+[2026-10-07 11:43:01.592] [info]  - number of steps taken / attempted: 5151 / 7089
+[2026-10-07 11:43:01.592] [info]  - number of projections: 0
+[2026-10-07 11:43:01.592] [info]  - number of iterations: 7089
+[2026-10-07 11:43:08.099] [info] Updating Model file from 30000 to latest format...
+[2026-10-07 11:43:08.101] [info] Loaded model gait9dof18musc_Thelen_BigSpheres.osim from file gait9dof18musc_Thelen_BigSpheres_20160914.osim
+[2026-10-07 11:43:08.103] [warning] Couldn't find file 'foot.vtp'.
+[2026-10-07 11:43:08.103] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-10-07 11:43:08.103] [warning] Couldn't find file 'l_talus.vtp'.
+[2026-10-07 11:43:08.103] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-10-07 11:43:08.104] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-10-07 11:43:08.104] [warning] Couldn't find file 'hat_spine.vtp'.
+[2026-10-07 11:43:08.104] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-10-07 11:43:08.104] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-10-07 11:43:08.104] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2026-10-07 11:43:08.104] [info] 'ControllerSet' was renamed and is being set to 'controllerset'.
+[2026-10-07 11:43:08.104] [info] 'ComponentSet' was renamed and is being set to 'componentset'.
+[2026-10-07 11:43:08.105] [warning] Coordinate.setValue:  coordinate lumbar_extension is locked. Unable to change its value.
+[2026-10-07 11:43:08.105] [info] -------
+[2026-10-07 11:43:08.105] [info] Manager
+[2026-10-07 11:43:08.105] [info] -------
+[2026-10-07 11:43:08.105] [info] Starting integration at initial time 0.00 s...
+[2026-10-07 11:43:09.627] [info] Integration complete at final time 1.00 s.
+[2026-10-07 11:43:09.627] [info]  - CPU time elapsed: 1.520060 s
+[2026-10-07 11:43:09.627] [info]  - real time elapsed: 1.521918 s
+[2026-10-07 11:43:09.627] [info]  - ratio sim-to-real time: 0.657
+[2026-10-07 11:43:09.628] [info]  - integrator method: RungeKuttaMerson
+[2026-10-07 11:43:09.628] [info]  - number of realizations: 28409
+[2026-10-07 11:43:09.628] [info]  - number of steps taken / attempted: 4028 / 6095
+[2026-10-07 11:43:09.628] [info]  - number of projections: 0
+[2026-10-07 11:43:09.628] [info]  - number of iterations: 6095
+[2026-10-07 11:43:15.605] [info] Updating Model file from 30000 to latest format...
+[2026-10-07 11:43:15.607] [info] Loaded model gait9dof18musc_Thelen_BigSpheres.osim from file gait9dof18musc_Thelen_BigSpheres_20160914.osim
+[2026-10-07 11:43:15.609] [warning] Couldn't find file 'foot.vtp'.
+[2026-10-07 11:43:15.609] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-10-07 11:43:15.610] [warning] Couldn't find file 'l_talus.vtp'.
+[2026-10-07 11:43:15.610] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-10-07 11:43:15.610] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-10-07 11:43:15.610] [warning] Couldn't find file 'hat_spine.vtp'.
+[2026-10-07 11:43:15.610] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-10-07 11:43:15.610] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-10-07 11:43:15.610] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2026-10-07 11:43:15.610] [info] 'ControllerSet' was renamed and is being set to 'controllerset'.
+[2026-10-07 11:43:15.610] [info] 'ComponentSet' was renamed and is being set to 'componentset'.
+[2026-10-07 11:43:15.611] [warning] Coordinate.setValue:  coordinate lumbar_extension is locked. Unable to change its value.
+[2026-10-07 11:43:15.612] [info] -------
+[2026-10-07 11:43:15.612] [info] Manager
+[2026-10-07 11:43:15.612] [info] -------
+[2026-10-07 11:43:15.612] [info] Starting integration at initial time 0.00 s...
+[2026-10-07 11:43:16.670] [info] Integration complete at final time 1.00 s.
+[2026-10-07 11:43:16.670] [info]  - CPU time elapsed: 1.057060 s
+[2026-10-07 11:43:16.670] [info]  - real time elapsed: 1.058044 s
+[2026-10-07 11:43:16.670] [info]  - ratio sim-to-real time: 0.945
+[2026-10-07 11:43:16.670] [info]  - integrator method: RungeKuttaMerson
+[2026-10-07 11:43:16.670] [info]  - number of realizations: 19695
+[2026-10-07 11:43:16.670] [info]  - number of steps taken / attempted: 2826 / 4217
+[2026-10-07 11:43:16.670] [info]  - number of projections: 0
+[2026-10-07 11:43:16.670] [info]  - number of iterations: 4217
