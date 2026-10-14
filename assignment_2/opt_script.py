@@ -7,22 +7,26 @@ import numpy as np
 KNOTS = 3
 solution_file = 'sol.txt'
 
+# You will see lines with “TODO” indicating what could be changed in the file for the character to stay in balance (and not fall on the floor).  How would the simulation look differently if you changed the number of iterations (maxiter) from 1 to 20? 
+# What cost function term could you add for the right toe to get as high as possible? Submit your code and a short write-up. 
+
+
 def simfunc(params, viz=False):
 		
 	model_filename = 'gait9dof18musc_Thelen_BigSpheres_20160914.osim'
 
 	model = osim.Model(model_filename)
 	init_state = [0, 2.0, 1.02, 0, 0, 0, 0, 0, 0, 0]
-	stepsize = 0.005;
-	nbr_timesteps = 200;
+	stepsize = 0.005
+	nbr_timesteps = 200
 
 	state = model.initSystem()
-	muscleController = osim.PrescribedController();
-	muscleSet = model.getMuscles();
-	nbr_muscles = muscleSet.getSize();
+	muscleController = osim.PrescribedController()
+	muscleSet = model.getMuscles()
+	nbr_muscles = muscleSet.getSize()
 
 	#state = model.initSystem()
-	editableCoordSet = model.updCoordinateSet();
+	editableCoordSet = model.updCoordinateSet()
 
 	for i in range(0,editableCoordSet.getSize()-1):
 		editableCoordSet.get(i).setValue(state, init_state[i])
@@ -30,9 +34,9 @@ def simfunc(params, viz=False):
 	manager = osim.Manager(model)
 	manager.initialize(state)
 
-	f = 0;
+	f = 0
 
-	total_time = stepsize * nbr_timesteps;
+	total_time = stepsize * nbr_timesteps
 
 	for i in range(0,nbr_timesteps+1):
 		t = (i+1) * stepsize
@@ -40,17 +44,21 @@ def simfunc(params, viz=False):
 		phase = min(math.floor((t*KNOTS)/total_time),KNOTS-1)
 
 		for j in range(0,nbr_muscles):
-			muscleSet.get(j).setActivation(state, params[phase*nbr_muscles+j]);
+			muscleSet.get(j).setActivation(state, params[phase*nbr_muscles+j])
 
-		model.realizeDynamics(state);
-		com = model.calcMassCenterPosition(state);
+		model.realizeDynamics(state)
+		com = model.calcMassCenterPosition(state)
 		
 		# TODO: change one thing in the line below to encourage the character to stay upright.
-		f = f + com.get(0)
+		# f = f + com.get(0)
+		f = f + com.get(1) # this would be changed to com.get(1) to encourage the character to stay upright, as it would minimize the vertical position of the center of mass.
 
 		# TODO: if you wanted the character to have its right toe as high as possible,
 		# what cost function term could you add after the line below:
-		toes_r = model.getBodySet().get("toes_r").getTransformInGround(state).p()
+		toes_r = model.getBodySet().get("toes_r").getTransformInGround(state).p() 
+		# The cost function will be 
+		# f = f + com.get(1) - toes_r.get(1) to encourage the character to have its right toe as high as possible, as it would minimize the vertical position of the right toe.
+
 	
 	if viz:
 		statesDegrees = manager.getStateStorage()
@@ -58,7 +66,7 @@ def simfunc(params, viz=False):
 		osim.STOFileAdapter.write(states_table, "forwardSimulation.sto")
 		#statesDegrees.printToFile("optSimulation.sto", "w");
 
-	f = -1 * f;
+	f = -1 * f
 	print(f)
 	return f
 
@@ -66,7 +74,8 @@ def simfunc(params, viz=False):
 def parallel_func():
 	import multiprocessing as mp
 	# TODO: you should try changing maxiter and popsize
-	es = cma.CMAEvolutionStrategy(KNOTS*18 * [0], 0.3, {'maxiter':1, 'popsize':8})
+	# es = cma.CMAEvolutionStrategy(KNOTS*18 * [0], 0.3, {'maxiter':1, 'popsize':8})
+	es = cma.CMAEvolutionStrategy(KNOTS*18 * [0], 0.3, {'maxiter':20, 'popsize':18})
 	pool = mp.Pool(es.popsize)
 	while not es.stop():
 		X = es.ask()
