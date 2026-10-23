@@ -51,14 +51,19 @@ def simfunc(params, viz=False):
 		
 		# TODO: change one thing in the line below to encourage the character to stay upright.
 		# f = f + com.get(0)
-		f = f + com.get(1) # this would be changed to com.get(1) to encourage the character to stay upright, as it would minimize the vertical position of the center of mass.
+		f = f + com.get(1) 
 
-		# TODO: if you wanted the character to have its right toe as high as possible,
+		# The cost function will be to get the right heel as high as possible at the very end of the simulation
 		# what cost function term could you add after the line below:
-		toes_r = model.getBodySet().get("toes_r").getTransformInGround(state).p() 
-		# The cost function will be 
-		# f = f + com.get(1) - toes_r.get(1) to encourage the character to have its right toe as high as possible, as it would minimize the vertical position of the right toe.
+		heel_r = model.getBodySet().get("calcn_r").getTransformInGround(state).p() 
 
+		# also need to make the right toe as high as possible
+		toes_r = model.getBodySet().get("toes_r").getTransformInGround(state).p() 
+		
+		if i == nbr_timesteps:
+			f = f + heel_r.get(1) * 9000
+			f = f + toes_r.get(1) * 9000
+		
 	
 	if viz:
 		statesDegrees = manager.getStateStorage()
@@ -66,7 +71,8 @@ def simfunc(params, viz=False):
 		osim.STOFileAdapter.write(states_table, "forwardSimulation.sto")
 		#statesDegrees.printToFile("optSimulation.sto", "w");
 
-	f = -1 * f
+	# goal is to minimize f since its the cost fucntion and to do this, it minimizes by moving the x direction
+	f = -1 * f 
 	print(f)
 	return f
 
@@ -75,7 +81,8 @@ def parallel_func():
 	import multiprocessing as mp
 	# TODO: you should try changing maxiter and popsize
 	# es = cma.CMAEvolutionStrategy(KNOTS*18 * [0], 0.3, {'maxiter':1, 'popsize':8})
-	es = cma.CMAEvolutionStrategy(KNOTS*18 * [0], 0.3, {'maxiter':20, 'popsize':18})
+	# increasing the maxiter makes better results
+	es = cma.CMAEvolutionStrategy(KNOTS*18 * [0], 0.3, {'maxiter':50, 'popsize':8})
 	pool = mp.Pool(es.popsize)
 	while not es.stop():
 		X = es.ask()
