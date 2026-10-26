@@ -17,8 +17,7 @@ problem.setTimeBounds(0, 1)
 problem.setStateInfo('/jointset/shoulder0/elv_angle/value', [-1.5, 2.0],0)
 problem.setStateInfo('/jointset/shoulder1/shoulder_elv/value', [0, 3.5],0, 3)
 problem.setStateInfo('/jointset/shoulder2/shoulder_rot/value', [0, 2.5],0)
-problem.setStateInfo('/jointset/elbow/elbow_flexion/value', [0., 3.1459],
-0, 1.0)
+problem.setStateInfo('/jointset/elbow/elbow_flexion/value', [0., 3.1459],0, 0)
 problem.setStateInfo('/jointset/radioulnar/pro_sup/value', [-3.14159/2., 3.14159/2.],0)
 
 problem.setStateInfoPattern('/jointset/.*/speed', [], 0, 0)
