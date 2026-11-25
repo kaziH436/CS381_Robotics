@@ -1,2 +1,3 @@
 osim-env
 *.log
+.DS_Store

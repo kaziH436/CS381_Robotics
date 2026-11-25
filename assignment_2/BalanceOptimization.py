@@ -81,7 +81,6 @@ def parallel_func():
 	import multiprocessing as mp
 	# TODO: you should try changing maxiter and popsize
 	# es = cma.CMAEvolutionStrategy(KNOTS*18 * [0], 0.3, {'maxiter':1, 'popsize':8})
-	# increasing the maxiter makes better results
 	es = cma.CMAEvolutionStrategy(KNOTS*18 * [0], 0.3, {'maxiter':50, 'popsize':8})
 	pool = mp.Pool(es.popsize)
 	while not es.stop():
@@ -100,5 +99,8 @@ if __name__ == '__main__':
 	parallel_func()
 	#replay_solution()
 
+
+# Write Up
+# When the number of iterations is changed from 1 to 20, the simulation can better optimize the muscle activation parameters. 
 
 
